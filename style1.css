@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header img{
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.box{
+    box-shadow: 0px 5px 15px rgb(0,0, 0,.1);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+p{ 
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+.images{
+    display: flex;
+    flex-direction: row;
+}
+section div{
+margin: auto;
+
+}
+section div img{
+    height: 400px;
+    border-radius: 50%;
+    width: 400px;
+    box-shadow: black 0 0 7px;
+}
+footer{
+    background: rgb(209, 209, 209);
+}

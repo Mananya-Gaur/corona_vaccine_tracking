@@ -1,0 +1,181 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+
+div.banner{
+    background-image: url("covid\ 19\ vaccine.jpg");
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+header ul li{
+    list-style: none;
+    margin-left: 0px;
+    border-right: rgb(0, 0, 0) solid;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    box-sizing: border-box;
+    transition: 0.5s;
+    font-family: sans-serif;
+}
+div.nav{
+    margin-top: -172px;
+    box-shadow: gray 0 0 9px;
+   
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(167, 162, 162);
+    height: 39px;
+    display: flex;
+    
+    
+}
+li:hover{
+    background-color: rgb(249, 67, 255);
+}   
+
+
+div.container{
+    background: rgb(255, 255, 255);
+    display:flex;
+    margin-top: 50px;
+}
+div.box{
+    
+    box-shadow: 0 5px 15px rgb(0,0, 0,.1);
+    border-radius: 20px;
+    padding: 40px;
+    margin: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+div.icon{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 40px;
+    transition: 1s;
+}
+
+#icon1{
+    box-shadow: 0 0 0 0 red;
+    background: red;
+}
+#icon1:hover{
+    box-shadow: 0 0 0 400px rgb(127, 20, 250);
+}
+#icon2{
+    box-shadow: 0 0 0 0 rgb(0, 4, 255);
+    background: rgb(0, 17, 255);
+}
+#icon2:hover{
+    box-shadow: 0 0 0 400px rgb(127, 20, 250);
+}
+#icon3{
+    box-shadow: 0 0 0 0 rgb(72, 255, 0);
+    background: rgb(9, 255, 0);
+}
+#icon3:hover{
+    box-shadow: 0 0 0 400px rgb(127, 20, 250);
+}
+
+p{
+    align-content: center;
+    font-family: sans-serif;
+}
+
+.features{
+    display: flex;
+    padding: 20px;
+}
+.features figure{
+    margin: auto;
+    text-align: center;
+}
+.features figure img {
+    border-radius: 10%;
+    box-shadow: rgb(94, 94, 94) 0 0 10px;
+    width: 150px;
+}
+footer{
+    padding-bottom: 10px;
+    background: rgb(226, 226, 226);
+}
+img{
+    height: 100px;
+    }
+.footer{
+    margin-left: 690px;
+    box-shadow: gray 0 0 5px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+.footer1{
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.footer2{
+    text-align: center;
+    border: solid black 0px;
+    border-radius: 10px;
+    width: 500px;
+    margin-left:500px ;
+    box-shadow: gray 0 0 5px;
+    padding: 10px;
+}
+a{text-decoration: none;
+    color: black;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 39px;
+    left: 0;
+    display:block;
+    width: 200px;
+    background: rgb(202, 194, 194);
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+}
+nav ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+header ul li a{
+    padding: 0 20px;
+}
+.black{background: rgb(167, 173, 167);
+border-left: black solid 3px;
+border-bottom: black solid 1px;
+margin-left: -3px;}
+
+.vac1{font-size: 30px;
+    font-family: 'Bebas Neue', cursive;}
+    .vac2{font-size: 30px;
+        font-family: 'Bebas Neue', cursive;}
+        .vac3{font-size: 30px;
+            font-family: 'Bebas Neue', cursive;}
+
+h3{font-family: sans-serif;
+margin-top: -20px;}
+
+.read{
+    color: rgb(61, 47, 255);
+}

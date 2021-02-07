@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>MORE INFO</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .mySlides {display:none;}
+    .w3-content {
+    max-width: 73% !important;
+}
+.text-center {
+    font-weight: bold;
+    font-size: 60px;
+}
+.navbar-header img{
+margin-left: 3px;
+ border-radius: 50%;
+ box-shadow: gray 0 2px 15px;
+}
+</style>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a href="home.html"><img src="/images/coder.jpeg" style="width:10%">
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">COVID-19 HealthCare</a></li>
+      <li><a href="#">Maintance</a></li>
+
+    </ul>
+  </div>
+</nav>
+  <br>
+<div class="w3-content w3-display-container">
+
+    <div class="w3-display-container mySlides">
+      <img src="/images/mask.jpg" style="width:100%">
+      <!-- <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+      </div> -->
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="/images/hqdefault (1).jpg" style="width:100%">
+      <!-- <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+      </div> -->
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="/images/hqdefault (2).jpg" style="width:100%">
+      <!-- <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+      </div> -->
+    </div>
+    
+    <div class="w3-display-container mySlides">
+      <img src="/images/vex.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+      </div>
+    </div>
+    
+    
+    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+    
+    </div>
+
+    <br>
+    <br>
+    <div class="text-center">
+     About
+    </div>
+    <div class="container">
+        <div class="col-md-5">
+            <img src="/images/vaccine.jpeg" style="width:100%">
+        </div>
+        <div class="col-md-7">
+       <p> 1. HEALTH & WELL-BEING
+          Together with Rwanda’s Ministry of ICT and Innovation,
+          UNDP Accelerator Lab deployed five anti-epidemic
+         robots to help frontline workers fight the pandemic.</p> 
+        <p>2. The robots will support detection of COVID-19 cases including
+         among returning citizens, test patients, and provide other
+        services in the hospitals.</p>
+        <p>3. UNFPA Cote d’Ivoire is designing an electronic nanoserver, serving as hotspot and storage device, through which
+         midwives can access learning materials and trainings
+       regarding COVID-19 - with or without internet access.</p>
+      <p>4. UNAIDS has collaborated with WeDoctor, a Chinese
+        medical service platform, to organise virtual sessions for
+       building skills and expertise for COVID-19 care and
+     management. 
+     <p>5. These sessions connected over 250 African
+doctors from Kenya, South Sudan and Uganda with
+leading Chinese frontline medical experts, sharing China’s
+experience with the COVID-19 response.</p>
+</div>
+    </div>
+<script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+
+</body>
+</html>
